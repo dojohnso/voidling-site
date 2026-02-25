@@ -118,6 +118,57 @@ footer a:hover {
     color: rgb(0, 210, 211);
 }
 
+/* Privacy / Prose */
+.back-link {
+    display: inline-block;
+    color: rgba(0, 210, 211, 0.7);
+    text-decoration: none;
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+    padding-top: 48px;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: rgb(0, 210, 211);
+}
+
+.prose h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(0, 210, 211);
+    margin-bottom: 4px;
+}
+
+.prose .last-updated {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 32px;
+}
+
+.prose h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+
+.prose p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 12px;
+}
+
+.prose a {
+    color: rgb(0, 210, 211);
+    text-decoration: none;
+}
+
+.prose a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
     .hero {
