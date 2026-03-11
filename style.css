@@ -107,6 +107,36 @@ main {
     text-transform: uppercase;
 }
 
+/* Support */
+.support {
+    text-align: center;
+    padding: 32px 0 48px;
+}
+
+.support h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 8px;
+}
+
+.support p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 12px;
+}
+
+.support-email {
+    color: rgb(0, 210, 211);
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.support-email:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     margin-top: auto;
